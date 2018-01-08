@@ -4,7 +4,9 @@
   "description": "In this workshop, we hope to introduce the concepts of initializing a node project, installing node packages using npm, exporting functions from a file, requiring from installed packages and relative file paths, and using flags with to pass arguments and values from your terminal to your code's logic.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main",
+    "dev-start": "nodemon main"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/mikecolonna/node-workshop#readme",
   "dependencies": {
+    "express": "^4.16.2",
     "flags": "^0.1.3",
     "knock-knock-jokes": "^1.7.0",
     "one-liner-joke": "^1.0.0"
