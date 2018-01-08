@@ -1,0 +1,19 @@
+{
+  "name": "workshop",
+  "version": "1.0.0",
+  "description": "In this workshop, we hope to introduce the concepts of initializing a node project, installing node packages using npm, exporting functions from a file, requiring from installed packages and relative file paths, and using flags with to pass arguments and values from your terminal to your code's logic.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikecolonna/node-workshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikecolonna/node-workshop/issues"
+  },
+  "homepage": "https://github.com/mikecolonna/node-workshop#readme"
+}
